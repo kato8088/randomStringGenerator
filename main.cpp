@@ -14,8 +14,6 @@ char RandomStr() {
     return AlphaNumeric[rand() % Lenght];
 }
 
-// IMPLEMENTAR A POSSIBILIDADE DE SALVAR AS STRINGS GERADAS (NA PASTA DE DOWNLOADS POR PADRAO)
-
 int main() {
     bool genAgain = true;
     while (genAgain = true) {
@@ -35,18 +33,10 @@ int main() {
             strRemaining--;
             cout << endl << endl;
         }
-
-        cout << "Generate more strings? (y/n): ";
         char yesNo;
+        cout << "Generate more strings? (y/n): ";
         cin >> yesNo;
-      /* NECESSITA REPARO
-      if (cin.fail() || yesNo != 'y' || yesNo != 'n' || yesNo != 'Y' || yesNo != 'N') {
-            cin.clear();
-            cout << "input errado DEBUGGGG \n";
-            cin >> yesNo;
-        }
-        */
-        //bool genAgain = false;
+              
         switch (yesNo) {
         case 'Y': case 'y':
             genAgain = true;
@@ -55,9 +45,6 @@ int main() {
         case 'N': case 'n':
             genAgain = false;
             return 1;
-        }
-        if (genAgain = true) {
-            
         }
     }
     return 0;

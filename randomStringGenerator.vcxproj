@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Linux64_port_v1.cpp" />
     <ClCompile Include="mainWin64.cpp" />
     <ClCompile Include="codigoOriginal.cpp" />
   </ItemGroup>

@@ -130,6 +130,9 @@
     <ClCompile Include="mainWin64.cpp" />
     <ClCompile Include="codigoOriginal.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="codigo_v1.0.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

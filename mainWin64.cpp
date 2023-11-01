@@ -73,7 +73,7 @@ start:
     bool genAgain;
     switch (yesNo)
     {
-    case 'y': case 'Y':
+    case 'y': case 'Y': case 's': case 'S':
         genAgain = true;
         system("cls");
         goto start;
